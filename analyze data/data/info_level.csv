@@ -1,0 +1,6 @@
+model,layers,components
+Llama-2-7b-hf,32,7
+Mistral-7B-v0.1,32,7
+phi-2,32,6
+Qwen-7B,32,5
+Baichuan-7B,32,5
