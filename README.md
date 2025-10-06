@@ -15,7 +15,7 @@ The main directory contains three folders:
 To create the conda environment, run the following command:
 
 ```bash
-conda env create -f environment.yaml
+conda env create -f environment.yml
 ```
 
 ---
@@ -59,6 +59,13 @@ CUBLAS_WORKSPACE_CONFIG=:4096:8 python main.py --model Qwen/Qwen2.5-7B --prune_m
 ---
 
 ## Notebook used for the analysis of the results
+
+For executing the notebooks, the creation of another conda environment is recommended. You can create it using the following command:
+
+```bash
+conda env create -f environment_notebooks.yml
+```
+
 
 Not all nobooks are functional since they need all the data points gathered during the experiments. The data was not fully uploaded to the repository due to its size.
 Still, the notebooks are already executed and the results are shown within each file.
