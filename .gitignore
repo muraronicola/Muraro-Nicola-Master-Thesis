@@ -1,0 +1,13 @@
+wanda/out/
+wanda/llm_weights/
+wanda/analyze_data/data/processed_data/partial/
+wanda/weight_activation/
+wanda/weight_activation/
+analyze_data/data/weight_activation/
+analyze_data/data/only_weight_model/
+analyze_data/data/raw_weights/
+analyze_data/data/old_raw_weights/
+*.pt
+*.png
+*.npy
+*.pyc
