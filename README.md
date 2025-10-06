@@ -56,6 +56,13 @@ CUBLAS_WORKSPACE_CONFIG=:4096:8 python main.py --model Qwen/Qwen2.5-7B --prune_m
 - `--calibration_mode`: Specifies the method for joining different calibration datasets. Options include `concat`, `random_sample`, `prototype`, `most_different`, `prototype_iou`, `most_different_iou`, `prototype_st`, and `most_different_st`. Default is `concat`.
 
 
+---
+
+## Notebook used for the analysis of the results
+
+Not all nobooks are functional since they need all the data points gathered during the experiments. The data was not fully uploaded to the repository due to its size.
+Still, the notebooks are already executed and the results are shown within each file.
+
 
 ---
 ## Main References
